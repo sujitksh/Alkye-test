@@ -13,6 +13,19 @@
 
    ![dashboard](https://github.com/user-attachments/assets/a5622c30-5c9c-4767-b5ac-969d22cc8735)
 
+   6. Mobile responsive page bellow attached screenshot i have unabled to capture full page some pages footer has not capture when took screenshot
+  
+      ![email-responsive](https://github.com/user-attachments/assets/2837dc4f-bf5f-415a-b9a8-6e6fe0323c02)
+
+
+      ![password-responsive](https://github.com/user-attachments/assets/e3433e10-9adc-4a16-936b-3c922ee04752)
+
+
+      ![dashboard-responsive](https://github.com/user-attachments/assets/211d32ef-a425-4d34-9974-e89efc104f4d)
+
+
+
+
 
 
    
