@@ -103,7 +103,7 @@
         min-height:300px;
       }
       .content_section{
-        margin: 25px 0;
+        margin-top:20px;
         max-width:240px;
       }
       .content_section h1{
@@ -123,7 +123,7 @@
       }
       .header_section{
         flex-direction: column;
-        gap:20px;
+        gap:0px;
       }
       .form{
         max-width:262px;

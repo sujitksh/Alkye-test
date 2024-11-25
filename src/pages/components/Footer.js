@@ -1,17 +1,19 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import useMediaQuery from '@/hooks/useMediaQuery';
 
 function Footer() {
+  const isMobile = useMediaQuery('(max-width:768px)');
   return (
     <footer className="footer">
       <div className='footer_content'>
       <div className="social-links">
-        <Link href="#"><Image src="/Icons/facebook.svg" alt="Facebook"  width={50} height={50} /></Link>
-        <Link href="#"><Image src="/Icons/instagram.svg" alt="Instagram"  width={50} height={50} /></Link>
-        <Link href="#"><Image src="/Icons/twitter.svg" alt="Twitter"  width={50} height={50} /></Link>
-        <Link href="#"><Image src="/Icons/twitch.svg" alt="twitch"  width={50} height={50} /></Link>
-        <Link href="#"><Image src="/Icons/youtube.svg" alt="YouTube"  width={50} height={50} /></Link>
+        <Link href="#"><Image src={`/Icons/facebook.${isMobile?'png':'svg'}`} alt="Facebook"  width={50} height={50} /></Link>
+        <Link href="#"><Image src={`/Icons/instagram.${isMobile?'png':'svg'}`} alt="Instagram"  width={50} height={50} /></Link>
+        <Link href="#"><Image src={`/Icons/twitter.${isMobile?'png':'svg'}`} alt="Twitter"  width={50} height={50} /></Link>
+        <Link href="#"><Image src={`/Icons/twitch.${isMobile?'png':'svg'}`} alt="twitch"  width={50} height={50} /></Link>
+        <Link href="#"><Image src={`/Icons/youtube.${isMobile?'png':'svg'}`} alt="YouTube"  width={50} height={50} /></Link>
       </div>
       <ul className="footer-links">
         <li className='item1'><Link href="#">Privacy Policy</Link></li> 
