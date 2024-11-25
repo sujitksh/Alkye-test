@@ -1,0 +1,50 @@
+.slider{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.slider h3{
+    font-size: 48px;
+    line-height: 50px;
+}
+.swiper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image{
+    display: block;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.3);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  .image:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+  
+  .swiper-pagination {
+    position: absolute; /* Use static to move it below instead of overlaying */
+    margin-top: 250px; /* Add spacing between slider and pagination */
+  }
+
+ 
+
+  @media (max-width: 768px) {
+    .image{
+        max-width: 150px;
+        height: 250px;
+      }
+      .slider{
+        gap:20px;
+      }
+      .slider h3{
+          font-size: 24px;
+          line-height: 25px;
+      }
+  }
